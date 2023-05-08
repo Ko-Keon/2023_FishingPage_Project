@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/2023_FishingPage_Project/static/css/main.5cd7f7cc.css",
+    "main.js": "/2023_FishingPage_Project/static/js/main.f8a039a1.js",
+    "static/js/787.bd6bc4ec.chunk.js": "/2023_FishingPage_Project/static/js/787.bd6bc4ec.chunk.js",
+    "static/media/weather.jpg": "/2023_FishingPage_Project/static/media/weather.bf26f48ee32c27fdb8cd.jpg",
+    "static/media/note2.jpg": "/2023_FishingPage_Project/static/media/note2.9b669e49ba90fa4f5a9d.jpg",
+    "static/media/beach123.jpg": "/2023_FishingPage_Project/static/media/beach123.2bac0eab6ad426c05313.jpg",
+    "static/media/paper2.png": "/2023_FishingPage_Project/static/media/paper2.a3748a8a84e1e8c8bc46.png",
+    "static/media/fish1.jpg": "/2023_FishingPage_Project/static/media/fish1.e1921efbef92a8639700.jpg",
+    "static/media/img.png": "/2023_FishingPage_Project/static/media/img.963a3ab18460e1a6a10e.png",
+    "static/media/logo.png": "/2023_FishingPage_Project/static/media/logo.015c10c6d55e9b7a33be.png",
+    "index.html": "/2023_FishingPage_Project/index.html",
+    "main.5cd7f7cc.css.map": "/2023_FishingPage_Project/static/css/main.5cd7f7cc.css.map",
+    "main.f8a039a1.js.map": "/2023_FishingPage_Project/static/js/main.f8a039a1.js.map",
+    "787.bd6bc4ec.chunk.js.map": "/2023_FishingPage_Project/static/js/787.bd6bc4ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cd7f7cc.css",
+    "static/js/main.f8a039a1.js"
+  ]
+}
