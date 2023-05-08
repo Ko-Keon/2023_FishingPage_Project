@@ -9,7 +9,7 @@ function MainTrip() {
             <div className='container'>
                 <div className='card'>
                     <div className='imgBox'>
-                        <img src='./img/조행기1.png'/>
+                        <img src={process.env.PUBLIC_URL+'/img/조행기1.png'}/>
                     </div>
                     <div className='content'>
                         <h2>[ 아징게임 ]</h2>
@@ -23,7 +23,7 @@ function MainTrip() {
                 </div>
                 <div className='card'>
                     <div className='imgBox'>
-                        <img src='./img/조행기2.png'/>
+                        <img src={process.env.PUBLIC_URL+'/img/조행기2.png'}/>
                     </div>
                     <div className='content'>
                     <h2>[ 아징게임 ]</h2>
@@ -37,7 +37,7 @@ function MainTrip() {
                 </div>
                 <div className='card'>
                     <div className='imgBox'>
-                        <img src='./img/조행기3.png'/>
+                        <img src={process.env.PUBLIC_URL+'/img/조행기3.png'}/>
                     </div>
                     <div className='content'>
                     <h2>[ 선상낚시 ]</h2>
@@ -51,7 +51,7 @@ function MainTrip() {
                 </div>
                 <div className='card'>
                     <div className='imgBox'>
-                        <img src='./img/조행기4.png'/>
+                        <img src={process.env.PUBLIC_URL+'/img/조행기4.png'}/>
                     </div>
                     <div className='content'>
                     <h2>[ 선상낚시 ]</h2>
