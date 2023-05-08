@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/2023_FishingPage_Project/static/css/main.5cd7f7cc.css",
-    "main.js": "/2023_FishingPage_Project/static/js/main.f8a039a1.js",
+    "main.css": "/2023_FishingPage_Project/static/css/main.1abb4d56.css",
+    "main.js": "/2023_FishingPage_Project/static/js/main.c7dfaccd.js",
     "static/js/787.bd6bc4ec.chunk.js": "/2023_FishingPage_Project/static/js/787.bd6bc4ec.chunk.js",
     "static/media/weather.jpg": "/2023_FishingPage_Project/static/media/weather.bf26f48ee32c27fdb8cd.jpg",
     "static/media/note2.jpg": "/2023_FishingPage_Project/static/media/note2.9b669e49ba90fa4f5a9d.jpg",
@@ -11,12 +11,12 @@
     "static/media/img.png": "/2023_FishingPage_Project/static/media/img.963a3ab18460e1a6a10e.png",
     "static/media/logo.png": "/2023_FishingPage_Project/static/media/logo.015c10c6d55e9b7a33be.png",
     "index.html": "/2023_FishingPage_Project/index.html",
-    "main.5cd7f7cc.css.map": "/2023_FishingPage_Project/static/css/main.5cd7f7cc.css.map",
-    "main.f8a039a1.js.map": "/2023_FishingPage_Project/static/js/main.f8a039a1.js.map",
+    "main.1abb4d56.css.map": "/2023_FishingPage_Project/static/css/main.1abb4d56.css.map",
+    "main.c7dfaccd.js.map": "/2023_FishingPage_Project/static/js/main.c7dfaccd.js.map",
     "787.bd6bc4ec.chunk.js.map": "/2023_FishingPage_Project/static/js/787.bd6bc4ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cd7f7cc.css",
-    "static/js/main.f8a039a1.js"
+    "static/css/main.1abb4d56.css",
+    "static/js/main.c7dfaccd.js"
   ]
 }
