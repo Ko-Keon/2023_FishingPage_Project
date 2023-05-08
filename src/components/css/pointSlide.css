@@ -1,0 +1,40 @@
+#point-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#point-slide-img {
+    width: 30%;
+    height: 50vh;
+    color: rgb(37, 71, 134);
+    box-shadow: 0 0 10px 5px;
+}
+
+#slide-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#prev-btn, #next-btn {
+    font-size: 24px;
+    margin: 0 400px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px gray;
+}
+
+#prev-btn {
+    left: 50px;
+}
+#next-btn {
+    right: 50px;
+}

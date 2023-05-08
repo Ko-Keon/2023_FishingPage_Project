@@ -1,0 +1,8 @@
+.point {
+    background-image: url(../img/paper2.png);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: 0 50px;
+    
+}

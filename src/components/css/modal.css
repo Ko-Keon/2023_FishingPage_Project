@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+.modal-container {
+    /* 모달창 크기 */
+    width: 500px;
+    height: 400px;
+
+    /* 최상단 위치 */
+    z-index: 1;
+    
+    /* 중앙 배치 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* 모달창 디자인 */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+    /* 모달창 내부 X버튼 */
+.close {
+    font-family: 'Pretendard-Regular';
+    position: absolute;
+    left: 45%;
+    bottom: 10px;
+}
+
+    /* 모달창 내용 */
+.modal-content {
+    font-family: 'Pretendard-Regular';
+    margin-top: 40px;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 1rem;
+}
+

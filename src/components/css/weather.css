@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+/* windy에 기본 높이값을 주어 표시되도록 함 */
+#windy {
+    width: 800px;
+    height: 800px;
+    
+}
+/* if문을 사용하여 hidden과 show일 때 값이 화면에 출력되도록 설정 */
+.hidden {
+    overflow: hidden;
+    height: 0;
+}
+
+.show {
+    overflow: visible;
+    height: 1200px;
+    margin-top: -40px;
+    background-image: url(../img/weather.jpg);
+    background-size: cover;
+}
+
+.show h1 {
+    font-family: 'Pretendard-Regular';
+    margin-left: 200px;
+    padding-top: 50px;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+

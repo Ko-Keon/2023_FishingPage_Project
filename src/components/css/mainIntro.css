@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.intro-scroll {
+    display: flex;
+    align-items: center;
+    height: 110vh;
+    padding: 0 20px;
+    opacity: 0;
+    justify-content: center;
+}
+
+.intro-scroll.scrollon {
+    opacity: 1;
+    transition: all 2s;
+}
+
+.intro-scroll.scrollon .fishing-intro {
+    transform: translateX(0);
+    transition: all 2s;
+    margin-top: -20%;
+}
+.intro-des {
+    font-family: 'Pretendard-Regular';
+    margin-top: 12%;
+    text-align: center;
+    color: white;
+}
+.intro-des p {
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+
+
+
+.fishing-intro h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 7.5rem;
+    font-family: 'Pretendard-Regular';
+    text-transform: uppercase;
+}
+
+h1 span {
+    display: inline-flex;
+    color: #4071f7;
+}
+
+h1 span:nth-child(even) {
+    overflow: hidden;
+    transition: ease-in 0.5s;
+    color: #fff;
+    border-bottom: 8px solid #4071f7;
+    letter-spacing: -1em;
+}
+
+h1:hover span:nth-child(even) {
+    letter-spacing: 0;
+}
+h1:hover span:nth-child(2) {
+    transition-delay: 0.4s;
+}
+h1:hover span:nth-child(4) {
+    transition-delay: 0.8s;
+}
+h1:hover span:nth-child(6) {
+    transition-delay: 1.2s;
+}
+

@@ -1,0 +1,53 @@
+/* 푸터 */
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+.footer {
+    font-family: 'Pretendard-Regular';
+    box-sizing: border-box;
+    height: 200px;
+    background: linear-gradient(to right, #00b4db, #0083b0);
+    color: white;
+    padding: 40px 60px;
+    display: flex;
+    width: 100vw;
+    bottom: 0px;
+}
+
+.footer .footer-logo {
+    font-size: 1.5rem;
+    margin-right: 80px;
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    width: 140px;
+}
+
+.footer .info {
+    font-size: 0.8rem;
+}
+
+.footer .info .top {
+    position: fixed;
+    bottom: 30px;
+    border: solid 1px white;
+    background-color: inherit;
+    right: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#top {
+    opacity: 0;
+}
+
+#top.scrollon {
+    color: white;
+    opacity: 1;
+    transition: 0.5s;
+}
