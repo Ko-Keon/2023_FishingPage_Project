@@ -8,7 +8,7 @@ function MainVideo() {
     <div>
         <div id='video'>
         <video id="main-slide-video" autoPlay muted loop width="150%" height="120%">
-            <source src="/video/Home.mp4" type="video/mp4" />
+            <source src={process.env.PUBLIC_URL+'video/Home.mp4'} type="video/mp4" />
             홈페이집니다.
         </video>
         </div>
